@@ -51,7 +51,7 @@ window.addEventListener("DOMContentLoaded", () => {
                     */
                     // AIzaSyCPOzH6UR9b1E2-lNgrYgANceBotQIW2DQ
 
-                    fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=225c3ba08e641a9f72fea81fd52ceb38`)
+                    fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=ea0e84c9a6cf73a733dedf8aab51b485`)
                             .then(e => e.json())
                     .then(data => {
                         console.log(data);
